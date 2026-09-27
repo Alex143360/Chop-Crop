@@ -1,0 +1,12 @@
+{
+  "item.examplemod.strawberry": "Strawberry",
+  "item.examplemod.strawberry_seeds": "Strawberry Seeds",
+  "block.examplemod.strawberry_crop": "Strawberry Crop",
+  "creativetab.examplemod.mod_tab": "Chop-Crop Mod",
+  "item.examplemod.juice_bottle": "Juice Bottle",
+  "item.examplemod.fresh_strawberry_juice": "Fresh Strawberry Juice",
+  "item.examplemod.fermented_strawberry_juice": "Fermented Strawberry Juice",
+  "item.examplemod.raw_strawberry_seeds": "Raw Strawberry Seeds",
+  "item.examplemod.strawberry_fertilizer": "Strawberry Fertilizer",
+  "block.examplemod.sieve": "Sieve"
+}

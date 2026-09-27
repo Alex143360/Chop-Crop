@@ -1,0 +1,12 @@
+{
+  "item.examplemod.strawberry": "Клубника",
+  "item.examplemod.strawberry_seeds": "Семена клубники",
+  "block.examplemod.strawberry_crop": "Куст клубники",
+  "creativetab.examplemod.mod_tab": "Чоп-кроп",
+  "item.examplemod.juice_bottle": "Бутылочка для сока",
+  "item.examplemod.fresh_strawberry_juice": "Свежий клубничный сок",
+  "item.examplemod.fermented_strawberry_juice": "Забродивший клубничный сок",
+  "item.examplemod.raw_strawberry_seeds": "Сырые семена клубники",
+  "item.examplemod.strawberry_fertilizer": "Клубничное удобрение",
+  "block.examplemod.sieve": "Сито"
+}
