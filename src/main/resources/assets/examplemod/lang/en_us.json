@@ -8,5 +8,6 @@
   "item.examplemod.fermented_strawberry_juice": "Fermented Strawberry Juice",
   "item.examplemod.raw_strawberry_seeds": "Raw Strawberry Seeds",
   "item.examplemod.strawberry_fertilizer": "Strawberry Fertilizer",
-  "block.examplemod.sieve": "Sieve"
+  "block.examplemod.sieve": "Sieve",
+  "item.examplemod.grape": "Grape"
 }

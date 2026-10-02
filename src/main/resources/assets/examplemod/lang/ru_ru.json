@@ -8,5 +8,6 @@
   "item.examplemod.fermented_strawberry_juice": "Забродивший клубничный сок",
   "item.examplemod.raw_strawberry_seeds": "Сырые семена клубники",
   "item.examplemod.strawberry_fertilizer": "Клубничное удобрение",
-  "block.examplemod.sieve": "Сито"
+  "block.examplemod.sieve": "Сито",
+  "item.examplemod.grape": "Виноград"
 }

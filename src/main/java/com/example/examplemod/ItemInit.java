@@ -15,6 +15,7 @@ public class ItemInit {
             () -> new Item(new Item.Properties().food(
                     new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build()
             )));
+            
 
     // Наши семена
     public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
@@ -35,4 +36,6 @@ public class ItemInit {
             () -> new Item(new Item.Properties()));
             public static final RegistryObject<Item> SIEVE = ITEMS.register("sieve",
             () -> new BlockItem(BlockInit.SIEVE.get(), new Item.Properties()));
+            public static final RegistryObject<Item> GRAPE = ITEMS.register("grape",
+            () -> new Item(new Item.Properties()));
 }

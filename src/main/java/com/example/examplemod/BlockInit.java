@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import com.example.examplemod.block.SieveBlock;
 
 public class BlockInit {
     // Список для наших новых блоков
@@ -17,5 +18,5 @@ public class BlockInit {
             () -> new CropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
             // Регистрируем блок сита
     public static final RegistryObject<Block> SIEVE = BLOCKS.register("sieve",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+            () -> new SieveBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
 }

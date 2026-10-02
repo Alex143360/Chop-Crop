@@ -27,6 +27,7 @@ public class CreativeTabInit {
                 output.accept(ItemInit.RAW_STRAWBERRY_SEEDS.get());
                 output.accept(ItemInit.STRAWBERRY_FERTILIZER.get());
                 output.accept(ItemInit.SIEVE.get());
+                output.accept(ItemInit.GRAPE.get());
             })
             .build()
     );
