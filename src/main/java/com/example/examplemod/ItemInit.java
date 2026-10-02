@@ -13,9 +13,39 @@ public class ItemInit {
     // Наша еда - клубника
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(
-                    new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build()
+                    new FoodProperties.Builder().nutrition(3).saturationMod(0.2f).build()
             )));
-            
+    public static final RegistryObject<Item> APPLE = ITEMS.register("apple",
+        () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+                .nutrition(3) // Цифра 3 даст ровно 1.5 целых окорочка
+                .saturationMod(0.3F) // Это то, как быстро герой снова проголодается
+                .build())));
+     public static final RegistryObject<Item> MEDLAR = ITEMS.register("medlar",
+        () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+                .nutrition(3) // Цифра 3 даст ровно 1.5 целых окорочка
+                .saturationMod(0.3F) // Это то, как быстро герой снова проголодается
+                .build())));
+     public static final RegistryObject<Item> PEAR = ITEMS.register("pear",
+        () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+                .nutrition(3) // Цифра 3 даст ровно 1.5 целых окорочка
+                .saturationMod(0.3F) // Это то, как быстро герой снова проголодается
+                .build())));
+     public static final RegistryObject<Item> PINEAPPLE = ITEMS.register("pineapple",
+        () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+                .nutrition(3) // Цифра 3 даст ровно 1.5 целых окорочка
+                .saturationMod(0.3F) // Это то, как быстро герой снова проголодается
+                .build())));      
+     public static final RegistryObject<Item> PLUM = ITEMS.register("plum",
+        () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+                .nutrition(3)
+                .saturationMod(0.3F)
+                .build())));
+     public static final RegistryObject<Item> GRAPE = ITEMS.register("grape",
+        () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
+                .nutrition(3) // Цифра 3 даст ровно 1.5 целых окорочка
+                .saturationMod(0.3F) // Это то, как быстро герой снова проголодается
+                .build())));
+
 
     // Наши семена
     public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
@@ -36,6 +66,5 @@ public class ItemInit {
             () -> new Item(new Item.Properties()));
             public static final RegistryObject<Item> SIEVE = ITEMS.register("sieve",
             () -> new BlockItem(BlockInit.SIEVE.get(), new Item.Properties()));
-            public static final RegistryObject<Item> GRAPE = ITEMS.register("grape",
-            () -> new Item(new Item.Properties()));
+            
 }

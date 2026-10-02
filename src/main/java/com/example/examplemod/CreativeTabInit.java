@@ -28,6 +28,11 @@ public class CreativeTabInit {
                 output.accept(ItemInit.STRAWBERRY_FERTILIZER.get());
                 output.accept(ItemInit.SIEVE.get());
                 output.accept(ItemInit.GRAPE.get());
+                output.accept(ItemInit.PLUM.get());
+                output.accept(ItemInit.APPLE.get());
+                output.accept(ItemInit.MEDLAR.get());
+                output.accept(ItemInit.PEAR.get());
+                output.accept(ItemInit.PINEAPPLE.get());
             })
             .build()
     );

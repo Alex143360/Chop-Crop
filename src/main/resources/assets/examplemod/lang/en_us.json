@@ -9,5 +9,10 @@
   "item.examplemod.raw_strawberry_seeds": "Raw Strawberry Seeds",
   "item.examplemod.strawberry_fertilizer": "Strawberry Fertilizer",
   "block.examplemod.sieve": "Sieve",
-  "item.examplemod.grape": "Grape"
+  "item.examplemod.grape": "Grape",
+  "item.examplemod.plum": "Plum",
+  "item.examplemod.apple": "Apple",
+  "item.examplemod.pineapple": "Pineapple",
+  "item.examplemod.pear": "Pear",
+  "item.examplemod.medlar": "Medlar"
 }

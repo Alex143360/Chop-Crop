@@ -9,5 +9,10 @@
   "item.examplemod.raw_strawberry_seeds": "Сырые семена клубники",
   "item.examplemod.strawberry_fertilizer": "Клубничное удобрение",
   "block.examplemod.sieve": "Сито",
-  "item.examplemod.grape": "Виноград"
+  "item.examplemod.grape": "Виноград",
+  "item.examplemod.plum": "Cлива",
+  "item.examplemod.apple": "Яблоко",
+  "item.examplemod.medlar": "Мушмула",
+  "item.examplemod.pear": "Груша",
+  "item.examplemod.pineapple": "Ананас"
 }
